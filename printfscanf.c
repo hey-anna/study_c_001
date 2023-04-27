@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(void)
+int main_printfscanf(void)
 {
     // 자바스크립트와 동일하나, 메모하면서 공부하자.
 
