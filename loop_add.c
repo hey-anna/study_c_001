@@ -26,7 +26,6 @@ int main(void)
     
     // 반복문
     // for, while, do while
-
     // for (선언; 조건; 증감) { }
     for (int i = 1; i <= 10; i++)
     {
@@ -82,13 +81,37 @@ int main(void)
         printf("\n");
     }
 
-    //
-    //
+    // 이중 반복문 (거꾸로 별)
+    for (int i = 0; i < 5; i++)
+    {
+        for (int j = i; j < 5-1; j++)
+        {
+            printf(" ");
+        }
+        for (int k = 0; k <= i; k++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
 
+    // 프로젝트
+    int floor;
+    printf("몇 층으로 쌓겠느냐?");
+    scanf("%d", &floor);
 
-    //
-    //
-    //
+    for(int i = 0; i < floor; i++)
+    {
+        for(int j = i; j < floor - 1; j++)
+        {
+            printf(" ");
+        }
+        for(int k = 0; k < (i * 2 + 1); k++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
 
     return 0;
 }
