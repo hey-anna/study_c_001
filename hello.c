@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int main_hello(void)
 {
     // printf("hello world\n");
     char name[256]; // 배열 하나 만들고
