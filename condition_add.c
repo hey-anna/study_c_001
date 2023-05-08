@@ -182,6 +182,6 @@ int main(void)
             // 예외 처리
         }
             // L while (1)로 처리 하면 아에 없어도 된다
-
+    }
     return 0;
 }

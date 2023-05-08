@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 
-int main(void)
+int main_condition(void)
 {
     // 조건 / 분기
     // if else / break / continue / switch
@@ -201,7 +201,7 @@ int main(void)
     // 그런데 실행하다가 브레이크를 만나면 스위체 케이스 그물을 탈출 한다
     }
     */
-   
+
     // 프로젝트
     srand(time(NULL));
     int num = rand() % 100 + 1; // 0 ~ 99 + 1 / 1 ~ 100
